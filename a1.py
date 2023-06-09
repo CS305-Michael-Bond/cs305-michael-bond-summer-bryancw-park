@@ -9,6 +9,14 @@ import math
 # accordingly. Make sure to include a docstring describing this function in your
 # definition below.
 
+def rectangle_area(width, height=None):
+    """Compute and return the area of a rectangle with the given height and width"""
+
+    if height == None:
+        height = width
+        
+    return height * width
+
 # 2. lambda definitions
 
 # Alter the statement below to assign a function value to circle_area using a 
