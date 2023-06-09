@@ -32,7 +32,7 @@ circle_area = lambda radius: math.pi * math.pow(radius, 2) # TODO: replace None 
 # (starting with 1). Then convert this list to a tuple and assign it to 
 # the variable perfect_squares below. 
 
-perfect_squares = None # TODO: replace None with your tuple
+perfect_squares = tuple([x*x for x in range(1,11)]) # TODO: replace None with your tuple
 
 # part 2: Now convert the tuple in to a set. Use set operations to exclude
 # any numbers that fall within the set 'exclusions' below and assign the 
