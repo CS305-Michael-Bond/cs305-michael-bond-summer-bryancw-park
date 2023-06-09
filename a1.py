@@ -24,7 +24,7 @@ def rectangle_area(width, height=None):
 # radius of a circle) and should compute and return the circle's area. Your
 # function must be correct to 5 decimal places to pass the tests. 
 
-circle_area = None # TODO: replace None with your lambda
+circle_area = lambda radius: math.pi * math.pow(radius, 2) # TODO: replace None with your lambda
 
 
 # 3. Collections / Comprehensions
