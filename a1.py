@@ -47,4 +47,6 @@ squares_set = set(perfect_squares) & exclusions # TODO: replace None with your s
 # Rather than starting with the first perfect square, generate the i-th perfect 
 # square, one at a time, where start <= i < stop. 
 def gen_squares(start, stop):
-    pass  # TODO: replace with function body for generator 
+    """Generator that returns perfect squares from start to stop"""
+    for i in range(start, stop):
+        yield i*i  # TODO: replace with function body for generator 
