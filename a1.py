@@ -39,7 +39,8 @@ perfect_squares = tuple([x*x for x in range(1,11)]) # TODO: replace None with yo
 # resulting set to the variable squares_set below. 
 
 exclusions = set(range(5,50))
-squares_set = None # TODO: replace None with your set
+#squares_set = set(perfect_squares) - exclusions # TODO: replace None with your set
+squares_set = set(perfect_squares) & exclusions # TODO: replace None with your set
 
 # 4. generators
 # Write a generator function called 'gen_squares' that generates perfect squares.
