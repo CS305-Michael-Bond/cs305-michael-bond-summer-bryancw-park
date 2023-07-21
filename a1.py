@@ -50,3 +50,15 @@ def gen_squares(start, stop):
     """Generator that returns perfect squares from start to stop"""
     for i in range(start, stop):
         yield i*i  # TODO: replace with function body for generator 
+        
+
+def main():
+    print(f'Area of rectangle with sides 3 and 4: {rectangle_area(3,4)}')
+    print(f'Area of rectangle with sides 3 and 3: {rectangle_area(3)}')
+    print(f'Area of circle with radius 3: {circle_area(3)}')
+    print(f'10 perfect squares: {perfect_squares}')
+    print(f'10 perfect squares with exclusions: {perfect_squares}')
+    print(f'Perfect squares in range 50 - 100: {[x for x in gen_squares(50,100)]}')
+
+if __name__ == "__main__":
+    main()
